@@ -85,7 +85,7 @@
                       "doom-emacs-flugo-slant_out_purple-small.png"
                       "doom-emacs-flugo-slant_out_bw-small.png")))
   (setq fancy-splash-image
-        (concat doom-private-dir "doom-banners/splashes/doom/"
+        (concat doom-private-dir "doom/"
                 (nth (random (length alternatives)) alternatives))))
 
 (setq +doom-dashboard-menu-sections (cl-subseq +doom-dashboard-menu-sections 0 2))
